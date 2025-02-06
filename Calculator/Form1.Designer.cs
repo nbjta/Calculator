@@ -80,7 +80,7 @@
             button4.Name = "button4";
             button4.Size = new Size(112, 34);
             button4.TabIndex = 3;
-            button4.Text = "button4";
+            button4.Text = "4";
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
@@ -90,7 +90,7 @@
             button5.Name = "button5";
             button5.Size = new Size(112, 34);
             button5.TabIndex = 4;
-            button5.Text = "button5";
+            button5.Text = "5";
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
@@ -100,7 +100,7 @@
             button6.Name = "button6";
             button6.Size = new Size(112, 34);
             button6.TabIndex = 5;
-            button6.Text = "button6";
+            button6.Text = "6";
             button6.UseVisualStyleBackColor = true;
             button6.Click += button6_Click;
             // 
@@ -140,7 +140,7 @@
             buttonMinus.Name = "buttonMinus";
             buttonMinus.Size = new Size(112, 34);
             buttonMinus.TabIndex = 9;
-            buttonMinus.Text = "Minus";
+            buttonMinus.Text = "-";
             buttonMinus.UseVisualStyleBackColor = true;
             buttonMinus.Click += buttonMinus_Click;
             // 
@@ -150,7 +150,7 @@
             buttonPlus.Name = "buttonPlus";
             buttonPlus.Size = new Size(112, 34);
             buttonPlus.TabIndex = 10;
-            buttonPlus.Text = "Plus";
+            buttonPlus.Text = "+";
             buttonPlus.UseVisualStyleBackColor = true;
             buttonPlus.Click += buttonPlus_Click;
             // 
@@ -160,7 +160,7 @@
             buttonEqual.Name = "buttonEqual";
             buttonEqual.Size = new Size(112, 34);
             buttonEqual.TabIndex = 11;
-            buttonEqual.Text = "Equal";
+            buttonEqual.Text = "=";
             buttonEqual.UseVisualStyleBackColor = true;
             buttonEqual.Click += buttonEqual_Click;
             // 

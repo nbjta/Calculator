@@ -85,8 +85,8 @@ namespace Calculator
 
         private void buttonPlus_Click(object sender, EventArgs e)
         {
-            string minus = "+";
-            SavePiece(minus);
+            string plus = "+";
+            SavePiece(plus);
         }
 
         private void buttonEqual_Click(object sender, EventArgs e)
