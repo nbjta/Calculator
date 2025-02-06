@@ -16,11 +16,12 @@ namespace Calculator
 
         private void SavePiece(string pieceOfFunction)
         {
-            if (mathFuction.Count() < 3)
-            {
-                textBoxFormula.Text = textBoxFormula.Text + " " + pieceOfFunction;
-                mathFuction.Add(pieceOfFunction);
-            }
+            //New shit
+            string[] temporary = textBoxFormula.Text.Split(new Char[] { '+', '-' });
+
+
+            textBoxFormula.Text = textBoxFormula.Text + pieceOfFunction;
+            mathFuction.Add(pieceOfFunction);
         }
 
         private void buttonOne_Click(object sender, EventArgs e)
